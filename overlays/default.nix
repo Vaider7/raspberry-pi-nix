@@ -87,7 +87,7 @@ in
     defconfig = "rpi_arm64_defconfig";
     extraMeta.platforms = [ "aarch64-linux" ];
     filesToInstall = [ "u-boot.bin" ];
-    version = "2024.04";
+    version = "2025.04-rc2";
     patches = [ ];
     makeFlags = [ ];
     src = u-boot-src;
